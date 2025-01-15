@@ -1,1 +1,1 @@
-﻿
+﻿Console.WriteLine("Examples for Design Patterns");
