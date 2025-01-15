@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.src.DesignPatterns.Behavioural.Memento
 {
-    public class Originator<ContentType> 
+    public class Originator<ContentType> : IOriginator<ContentType>
     {
         public ContentType? Content { get; set; }
 
