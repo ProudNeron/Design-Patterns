@@ -1,6 +1,6 @@
 namespace ConsoleApp1.src.DesignPatterns.Behavioral.Memento.BadExample
 {
-    public class Editor
+    public class Editor //violated SRP
     {
 
         private string _content = "";
